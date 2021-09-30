@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "whack-a-mole-6ed14",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
